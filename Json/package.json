@@ -1,0 +1,15 @@
+{
+  "name": "higor",
+  "version": "1.0.0",
+  "description": "Page ong amigos em movimento",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "Ong_amigos_em_movimento"
+  },
+  "author": "Higor Z",
+  "license": "ISC"
+}
