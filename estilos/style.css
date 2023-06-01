@@ -150,7 +150,7 @@ main {
   cursor: pointer;
   border-radius: 4px;
   transition: background-color 0.3s ease;
-  width: 250px;
+  width: 200px;
 }
 
 .contact-button:hover {
