@@ -79,7 +79,7 @@ main {
   
     .contact-button {
       position: absolute;
-      top: 8vh;
+      top: 2vh;
       left: auto;
       right: 100px; /* Ajuste o valor conforme necessário */
       transform: translateX(-50%);
