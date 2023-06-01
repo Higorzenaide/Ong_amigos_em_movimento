@@ -10,12 +10,14 @@
     />
     <meta name="author" content="Higor Z" />
     <link rel="stylesheet" href="estilos/style.css" />
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="estilos/swiper-bundle.min.css" />
     <title>Amigos em movimento</title>
   </head>
   <body>
     <header>
       <nav>
-        <a class="logo" ><img src="img/logo2.png" alt=""></a>
+        <a class="logo"><img src="img/logo2.png" alt="" /></a>
         <div class="mobile-menu">
           <div class="line1"></div>
           <div class="line2"></div>
@@ -26,47 +28,204 @@
           <li><a href="#">Sobre</a></li>
           <li><a href="#">Projetos</a></li>
           <li><a href="#">Eventos</a></li>
-          <button class="contact-button" style="margin-left: 100px;">Entre em contato</button>
+          <button class="contact-button" style="margin-left: 100px">
+            Entre em contato
+          </button>
         </ul>
       </nav>
     </header>
-  <main>
-    <div class="wrapper">
-      <i id="left" class="fa-solid fa-angle-left"></i>
-      <ul class="carousel">
-        <li class="card">
-          <div class="img"><img src="img/logoAmigosEmMovimento.jpg" alt="img" draggable="false"></div>
-          <h2>Natal de 2018</h2>
-          <span>Saiba Mais</span>
-        </li>
-        <li class="card">
-          <div class="img"><img src="img/logoAmigosEmMovimento.jpg" alt="img" draggable="false"></div>
-          <h2>Natal de 2019</h2>
-          <span>Saiba Mais</span>
-        </li>
-        <li class="card">
-          <div class="img"><img src="img/logoAmigosEmMovimento.jpg" alt="img" draggable="false"></div>
-          <h2>Natal de 2020</h2>
-          <span>Saiba mais</span>
-        </li>
-        <li class="card">
-          <div class="img"><img src="img/logoAmigosEmMovimento.jpg" alt="img" draggable="false"></div>
-          <h2>Natal de 2021</h2>
-          <span>Saiba mais</span>
-        </li>
-        <li class="card">
-          <div class="img"><img src="img/logoAmigosEmMovimento.jpg" alt="img" draggable="false"></div>
-          <h2>Natal de 2022</h2>
-          <span>Saiba mais</span>
-        </li>
-        <li class="card">
-          <div class="img"><img src="img/logoAmigosEmMovimento.jpg" alt="img" draggable="false"></div>
-          <h2>Festa junina</h2>
-          <span>Saiba mais</span>
-        </li>
-      </ul>
-      <i id="right" class="fa-solid fa-angle-right"></i>
-  </main>
-    <script src="scritps/scritps.js"></script>
+    <main>
+      <div class="slide-container swiper">
+        <div class="slide-content">
+          <div class="card-wrapper swiper-wrapper">
+            <div class="card swiper-slide">
+              <div class="image-content">
+                <span class="overlay"></span>
+
+                <div class="card-image">
+                  <img src="img/logoAmigosEmMovimento.jpg" alt="" class="card-img" />
+                </div>
+              </div>
+
+              <div class="card-content">
+                <h2 class="name">Natal de 2018</h2>
+                <p class="description">
+                    Um marco em nossa jornada!
+                  <br>
+                  <br>
+                  
+                </p>
+
+                <button class="button">Saiba mais</button>
+              </div>
+            </div>
+            <div class="card swiper-slide">
+              <div class="image-content">
+                <span class="overlay"></span>
+
+                <div class="card-image">
+                    <img src="img/logoAmigosEmMovimento.jpg" alt="" class="card-img" />
+                </div>
+              </div>
+
+              <div class="card-content">
+                <h2 class="name">Natal de 2019</h2>
+                <p class="description">
+                    Dando continuidade ao impacto positivo!
+                </p>
+
+                <button class="button">Saiba mais</button>
+              </div>
+            </div>
+            <div class="card swiper-slide">
+              <div class="image-content">
+                <span class="overlay"></span>
+
+                <div class="card-image">
+                    <img src="img/logoAmigosEmMovimento.jpg" alt="" class="card-img" />
+                </div>
+              </div>
+
+              <div class="card-content">
+                <h2 class="name">Natal de 2020</h2>
+                <p class="description">
+                    Transformando vidas e espalhando alegria!
+                  <br>
+                </p>
+
+                <button class="button">Saiba mais</button>
+              </div>
+            </div>
+            <div class="card swiper-slide">
+              <div class="image-content">
+                <span class="overlay"></span>
+
+                <div class="card-image">
+                    <img src="img/logoAmigosEmMovimento.jpg" alt="" class="card-img" />
+                </div>
+              </div>
+
+              <div class="card-content">
+                <h2 class="name">2021</h2>
+                <p class="description">
+                    Seguindo firmes com o nosso propósito!
+                </p>
+
+                <button class="button">Saiba mais</button>
+              </div>
+            </div>
+            <div class="card swiper-slide">
+              <div class="image-content">
+                <span class="overlay"></span>
+
+                <div class="card-image">
+                    <img src="img/logoAmigosEmMovimento.jpg" alt="" class="card-img" />
+                </div>
+              </div>
+
+              <div class="card-content">
+                <h2 class="name">2022</h2>
+                <p class="description">
+                    Cinco anos de impacto e solidariedade!
+                </p>
+
+                <button class="button">Saiba mais</button>
+              </div>
+            </div>
+            <div class="card swiper-slide">
+              <div class="image-content">
+                <span class="overlay"></span>
+
+                <div class="card-image">
+                    <img src="img/logoAmigosEmMovimento.jpg" alt="" class="card-img" />
+                </div>
+              </div>
+
+              <div class="card-content">
+                <h2 class="name">2023</h2>
+                <p class="description">
+                  Venha fazer parte!
+                  <br>
+                  <br>
+                </p>
+
+                <button class="button">Saiba mais</button>
+              </div>
+            </div>
+            <div class="card swiper-slide">
+              <div class="image-content">
+                <span class="overlay"></span>
+
+                <div class="card-image">
+                    <img src="img/logoAmigosEmMovimento.jpg" alt="" class="card-img" />
+                </div>
+              </div>
+
+              <div class="card-content">
+                <h2 class="name">Arraia</h2>
+                <p class="description">
+                    Reviva os momentos da nossa inesquecível Festa Junina!
+                </p>
+
+                <button class="button">Saiba mais</button>
+              </div>
+            </div>
+            <!--
+            <div class="card swiper-slide">
+              <div class="image-content">
+                <span class="overlay"></span>
+
+                <div class="card-image">
+                    <img src="img/logoAmigosEmMovimento.jpg" alt="" class="card-img" />
+                </div>
+              </div>
+
+              
+              <div class="card-content">
+                <h2 class="name">--</h2>
+                <p class="description">
+                  The lorem text the section that contains header with having
+                  open functionality. Lorem dolor sit amet consectetur
+                  adipisicing elit.
+                </p>
+
+                <button class="button">View More</button>
+              </div>
+            </div>
+            <div class="card swiper-slide">
+              <div class="image-content">
+                <span class="overlay"></span>
+
+                <div class="card-image">
+                    <img src="img/logoAmigosEmMovimento.jpg" alt="" class="card-img" />
+                </div>
+              </div>
+
+              <div class="card-content">
+                <h2 class="name">David Dell</h2>
+                <p class="description">
+                  The lorem text the section that contains header with having
+                  open functionality. Lorem dolor sit amet consectetur
+                  adipisicing elit.
+                </p>
+                
+                <button class="button">View More</button>
+              </div>
+               -->
+            </div>
+          </div>
+        </div>
+        <div class="swiper-button-next swiper-navBtn"></div>
+        <div class="swiper-button-prev swiper-navBtn"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </main>
+     <!-- Swiper JS -->
+  <script src="scritps/swiper-bundle.min.js"></script>
+
+  <!-- JavaScript -->
+  <script src="scritps/scritps.js"></script>
   </body>
+
+ 
 </html>
